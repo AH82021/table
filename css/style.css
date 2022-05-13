@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  background-color: burlywood;
+}
+table {
+  background-color: black;
+  position:absolute;
+  top: 50%;
+  left: 40%;
+   color: whitesmoke;
+   border-collapse: collapse;
+   box-shadow: 0 10px 20px 5px rgba(108, 63, 63, 0.15);
+   border-radius: 12px;
+}
+table{
+  border-spacing: 0;
+  
+  
+}
+th{
+  padding: 8px;
+}
+td {
+  padding: 10px;
+  border: solid 1px whitesmoke;
+}
+.plan{
+ background-color: whitesmoke;
+ color: black;
+}
+.basic  {
+  background-color: goldenrod;
+}
+.starter {
+  background-color: #eb3b43;
+}
+.advanced {
+  background-color: #16b3c2;
+}
+.check {
+  color: green;
+ 
+}
+.copyright{
+  font-size: 0.4rem;
+  vertical-align: bottom;
+  align:left;
+}
+.btn:hover {
+  background-color: green;
+}
+
+
